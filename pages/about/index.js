@@ -120,14 +120,14 @@ const About = () => {
         </div>
         <div className="flex flex-col w-full xl:max-w-[48%] h-[480px]">
           <div className="flex gap-x-4 xl:gap-x-8  mx-auto xl:mx-0 mb-4">
-          {aboutData.map((item, itemIndex) => {
+          {aboutData.map((item, itemIndex1) => {
   return (
     <div
-      key={itemIndex} // This key prop is correctly set
+      key={itemIndex1}
       className={`${
-        index === itemIndex ? "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300" : ""
+        index === itemIndex1 ? "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300" : ""
       } cursor-pointer capitalized xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
-      onClick={() => setIndex(itemIndex)}
+      onClick={() => setIndex(itemIndex1)}
     >
       {item.title}
     </div>
@@ -135,10 +135,10 @@ const About = () => {
 })}
           </div>
           <div className=" py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
-            {aboutData[index].info.map((item, itemIndex) => {
+            {aboutData[index].info.map((item, itemIndex2) => {
               return (
                 <div
-                  key={itemIndex}
+                  key={itemIndex2}
                   className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
                 >
                   <div className="font-light mb-2 md:mb-0">{item.title}</div>
