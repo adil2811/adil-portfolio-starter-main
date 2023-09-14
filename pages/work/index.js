@@ -26,8 +26,8 @@ const Work = () => {
               animate='show'
               exit='hidden'
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'>
-              Here are the projects I've worked on, along with the corresponding website speed improvements I've achieved:
-            </motion.p>
+Here are the projects I&apos;ve worked on...     
+       </motion.p>
           </div>
         </div>
         <WorkSlider />
