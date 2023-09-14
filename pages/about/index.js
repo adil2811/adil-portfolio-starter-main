@@ -97,14 +97,15 @@ const About = () => {
             Captivating <span>stories</span> birth magnificent design.
           </h2>
           <p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
-            In 2022, my journey into web development began while working as an
-            SEO intern. Watching experienced developers use Visual Studio Code
-            (VS Code) sparked my interest, and I completed my internship. I
-            started learning web development through online courses and
-            documentation. Now, I'm eager to deepen my skills under the guidance
-            of an experienced developer. A good mentorship could provide
-            insights that online resources can't match. I'm excited to learn
-            from you and contribute to your projects.
+          'In 2022, my journey into web development began while working as an
+SEO intern. Watching experienced developers use Visual Studio Code
+(VS Code) sparked my interest, and I completed my internship. I
+started learning web development through online courses and
+documentation. Now, I&apos;m eager to deepen my skills under the guidance
+of an experienced developer. A good mentorship could provide
+insights that online resources can&apos;t match. I&apos;m excited to learn
+from you and contribute to your projects.'
+
           </p>
           <div>
             <div className="flex flex-1 xl:gap-x-6">
