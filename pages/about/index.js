@@ -44,7 +44,7 @@ const aboutData = [
     info: [
       {
         title:
-          "Developed a full-fledged e-commerce platform using Next.js, React, and Redux. User authentication, product catalog, shopping cart, payment integration, and order tracking. Next.js, React, Redux, Stripe API, Firebase, Styled-components.",
+          "Developed a full-fledged e-commerce platform using Next.js,   User authentication, product catalog, shopping cart, payment integration, and order tracking.  Next.js, React, Redux, Stripe API, Styled-components and also a admin panel.",
         stage: "Ecommerce Website",
       },
       {
@@ -138,7 +138,7 @@ from you and contribute to your projects.'
           <div className=" py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
             {aboutData[index].info.map((item, itemIndex2) => {
               return (
-                <React.Fragment
+                <div
                   key={itemIndex2}
                   className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
                 >
@@ -151,8 +151,8 @@ from you and contribute to your projects.'
                         {icon}
                       </div>;
                     })}
-                  </div>
-                </React.Fragment>
+                  </div> 
+                </div>
               );
             })}
           </div>
