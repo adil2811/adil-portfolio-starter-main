@@ -63,7 +63,7 @@ const aboutData = [
       },
       {
         title: "Internship at Azent (S.E.O)",
-        stage: "2022",
+        stage: "2021",
       },
     ],
   },
@@ -79,7 +79,7 @@ const About = () => {
   const [index, setIndex] = useState(0);
 
   return (
-    <div className="h-full bg-primary/30 py-32 pt-0 text-center xl:text-left">
+    <div className="h-screen bg-primary/30 py-32 pt-0 text-center xl:text-left">
       <Circles />
       <motion.div
         variants={fadeIn("right", 0.2)}
