@@ -80,7 +80,6 @@ const About = () => {
 
   return (
     <div className="h-screen bg-primary/30 py-32 pt-0 text-center xl:text-left">
-      <Circles />
       <motion.div
         variants={fadeIn("right", 0.2)}
         initial="hidden"
@@ -156,9 +155,13 @@ from you and contribute to your projects.'
               );
             })}
           </div>
+          <div className="p-10"></div>
         </div>
       </div>
+      <Circles className='mb-[-50px]' />
+
     </div>
+    
   );
 };
 
