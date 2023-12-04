@@ -94,6 +94,62 @@ const workSlides = {
         },
       ],
     },
+    {
+      images: [
+        {
+          title: "MPH 1",
+          path: "/mph1.png",
+          link: "https://www.yourchoiceee.com/", // Add the link for this box
+
+        },
+        {
+          title: "MPH 2",
+          path: "/mph2.png",
+          link: "https://www.yourchoiceee.com/", // Add the link for this box
+
+        },
+        {
+          title: "MPH 3",
+          path: "/mph3.png",
+          link: "https://www.yourchoiceee.com/", // Add the link for this box
+
+        },
+        {
+          title: "MPH 4",
+          path: "/mph4.png",
+          link: "https://www.yourchoiceee.com/", // Add the link for this box
+
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: "what 1",
+          path: "/what1.png",
+          link: "https://www.yourchoiceee.com/", // Add the link for this box
+
+        },
+        {
+          title: "what 2",
+          path: "/what2.png",
+          link: "https://www.yourchoiceee.com/", // Add the link for this box
+
+        },
+        {
+          title: "what 3",
+          path: "/what3.png",
+          link: "https://www.yourchoiceee.com/", // Add the link for this box
+
+        },
+        {
+          title: "what 4",
+          path: "/what4.png",
+          link: "https://www.yourchoiceee.com/", // Add the link for this box
+
+        },
+      ],
+    },
   ],
 };
 
