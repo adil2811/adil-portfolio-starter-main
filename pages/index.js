@@ -18,7 +18,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="bg-primary/60  h-screen">
+    <div className="bg-primary/60  ">
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
         {isLoading ? (
           // Display the CircleLoader component while loading
@@ -56,9 +56,8 @@ const Home = () => {
           </div>
         )}
       </div>
-      <div className="w-[1200px] h-full absolute right-0 bottom-0">
+      <div className="w-[1200px]  absolute right-0 bottom-0">
         {/* bg image */}
-        <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-10"></div>
         {/* particles */}
         <div className="w-full h-full max-w-[739px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]">
           <Avatar />
